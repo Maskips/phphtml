@@ -4,7 +4,7 @@
 </head>
 <body>
     <table border="0" style="center">
-        <FORM ACTION = "ptugas02.php" METHOD = "POST" NAME = "Input">
+        <FORM ACTION="ptugas02.php" METHOD="POST" NAME="Input">
             <h2>FORMULIR PENDAFTARAN</h2>
             <tr>
                 <td>NO</td>
