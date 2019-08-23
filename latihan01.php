@@ -17,6 +17,7 @@
     </table>
 </body>
 </html>
+<br>
 
 <?php
 
@@ -24,10 +25,14 @@
         $bin = $_POST['bin'];
 
     for ($a = 1; $a <= $bin; $a++) { 
-        for ($b = 1; $b <= $a; $b++) { 
-            echo "*";      
+        for ($b = $bin; $b >= $a; $b-=1) { 
+            print ('&nbsp');
         }
-        echo "<br>";
+            for ($c=1; $c <= $a; $c++) { 
+                echo "*";
+            }
+        echo "<br>"; 
     }
 }
+
 ?>
