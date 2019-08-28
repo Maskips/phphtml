@@ -8,10 +8,10 @@
             <tr>
                 <td>MASUKKAN INPUTAN</td>
                 <td>:</td>
-                <td><input type = "number" name = "bin"></td>
+                <td><input type="number" name="bin"></td>
             </tr>
             <tr>
-                <td><input type="submit"   name="Proses"  value="Proses"></td>
+                <td><input type="submit" name="Proses" value="Proses"></td>
             </tr>
         </FORM>
     </table>
@@ -21,8 +21,8 @@
 
 <?php
 
-    if (isset($_POST['Proses'])) {
-        $bin = $_POST['bin'];
+if (isset($_POST['Proses'])) {
+    $bin = $_POST['bin'];
 
     for ($a = 1; $a <= $bin; $a++) { 
         for ($b = $bin; $b >= $a; $b-=1) { 
