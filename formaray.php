@@ -23,7 +23,7 @@
     <?php
     if(isset($_GET['submit'])){
         $jml_form=$_GET['jml'];
-        for($a=1;$a <= $jml_form;$a++){
+        for($a=1;$a <= $jml_form;$a++) {
     ?>
         <form action="formarraypro.php" method="post">
             <label for="">Nama</label>
