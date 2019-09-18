@@ -3,7 +3,7 @@ session_start();
 if (isset($_POST['Login'])) {
     $a = $_POST['user'];
     $b = $_POST['pass'];
-    //periksa login
+    //peria login
     if ($a == "admin" && $b == "123456") {
         //menciptakan session
         $_SESSION['login'] = $a;
